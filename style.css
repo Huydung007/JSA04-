@@ -1,0 +1,248 @@
+body {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#nav-left ul {
+    list-style: none;
+    display: flex;
+}
+
+#search-input {
+    display: flex;
+    align-items: center;
+
+}
+
+#search-input input {
+    width: 500px;
+    height: 45px;
+    margin: 20px 0 20px 20px;
+}
+
+#search-input button {
+    height: 50px;
+    width: 70px;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav div ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mot {
+    margin: 20px;
+}
+
+.mot a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.695);
+    height: 50px;
+    margin: 0;
+    color: azure;
+    font-size: 20px;
+}
+
+#slideshow {
+    display: flex;
+}
+
+#slideshow img {
+    width: 100%;
+    height: 60%;
+}
+
+#giamgia {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.in-giamgia {
+    padding: 0 8px 7px 8px;
+}
+
+.sanpham {
+    width: 100%;
+    height: 300px;
+    margin: 0 0 0 2px;
+}
+
+.giasanpham {
+    display: flex;
+    width: 100%;
+}
+
+.gia {
+    width: 100%;
+    font-size: 20px;
+}
+
+.hai {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+hr {
+    width: 90%;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    margin: 0 0 50px 0;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+#age {
+    padding: 50px;
+    background-color: rgba(128, 0, 98, 0.7);
+    color: aliceblue;
+}
+
+#suitable-age {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: pink;
+    height: 300px;
+}
+
+.age a img {
+    width: 150px;
+    height: 180px;
+    /* text-align: center; */
+}
+
+.age a p {
+    color: black;
+    font-size: 20px;
+}
+
+.age {
+    text-align: center;
+}
+
+#theloai {
+    width: 100%;
+    background-color: rgb(0, 128, 255);
+    height: 200px;
+}
+
+.theloai {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 191, 255, 0.133);
+    padding: 50px 100px;
+}
+
+.theloai a img {
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    display: inline;
+}
+
+.theloai a div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theloai div {
+    background-color: aliceblue;
+    text-align: center;
+    width: 200px;
+}
+
+.theloai div p {
+    color: black;
+}
+
+#tag {
+    background-color: rgba(0, 128, 255, 0.812);
+    display: flex;
+    width: 100%;
+    color: azure;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tag1 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    height: 200px;
+    font-size: 25px;
+}
+
+#tag1 h4 {
+    text-align: center;
+}
+
+#tag2 {
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    display: block;
+    padding: 0 40px;
+}
+
+.tag ul li a {
+    color: azure;
+}
+
+#tag2 div button,
+a {
+    border-radius: 5px;
+    font-size: 20px;
+    width: 40%;
+    height: 60px;
+    margin: 0 0 25px 0;
+    color: azure;
+}
+
+#tag2 div i {
+    font-size: 40px;
+    padding: 30px;
+}
